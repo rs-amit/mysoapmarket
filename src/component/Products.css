@@ -1,0 +1,81 @@
+.product{
+    padding: 10px;
+    margin: 10px 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.product-wrap{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-title{
+    margin: 5px 0;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+
+}
+.product-disc{
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.product-price{
+    color: rgb(211, 137, 0);
+    margin-bottom: 5px;
+}
+.product-button{
+    width: fit-content;
+    padding: 5px 10px;
+    margin-top: 10px    ;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.product-img{
+   max-width: 300px;
+}
+
+.deletebtn{
+    padding:5px 10px ;
+    margin-right:10px ;
+    background-color:crimson;
+    color: white;
+    border:none;
+    border-radius: 5px;
+}
+.Editbtn{
+    padding:5px 10px ;
+    background-color:rgb(96, 96, 255);
+    color: white;
+    border:none;
+    border-radius: 5px;
+}
+
+@media(max-width:650px){
+    .product-wrap{
+        margin-left:0;
+    }
+    .product{
+        flex-direction: column;
+        padding: 20px;
+    }
+}
+
+@media(max-width:350px){
+    .product-img{
+        max-width: 200px;
+     }
+}

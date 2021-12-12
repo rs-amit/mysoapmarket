@@ -1,0 +1,79 @@
+.login{
+    /* border: 1px solid black; */
+    padding: 20px;
+
+
+}
+.login-Wrap{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-banner{
+    flex: 0.3;
+    padding: 10px;
+
+}
+.imgBanner{
+    /* border: 2px solid rgb(202, 190, 190); */
+    max-width: 450px;
+    /* flex: 0.5; */
+}
+
+.login-field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0.3;
+}
+.loginForm{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.loginInput{
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid rgb(177, 177, 177);
+    background-color: rgb(207, 207, 207) ;
+    /* border: ; */
+}
+.loginInput:focus{
+    outline: none;
+}
+.loginSubmit{
+    border: 2px solid rgb(40, 40, 155);
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: rgb(66, 66, 167);
+    color:white;
+}
+
+@media(max-width:800px){
+    .imgBanner{
+        display: none;
+    }
+    .login-Wrap{
+        height: 100vh;
+        background-color: rgb(230, 227, 227);
+    }
+
+    .login-banner{
+        /* border-right: 2px solid rgb(185, 185, 185); */
+        flex: 0;
+        padding: 0;
+        
+    }
+    .login{
+        /* border: 1px solid black; */
+        padding: 0;
+    
+    
+    }
+}
+
+@media(max-width:600px){
+
+}

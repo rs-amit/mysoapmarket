@@ -1,0 +1,40 @@
+.home{
+    padding: 20px;
+    display: flex;
+}
+.home-Wrap{
+   background-color: rgb(236, 236, 236);
+   padding: 20px 10px;
+   margin-right:10px ;
+   /* top:0; */
+   border-radius: 5px;
+   flex: 0.70;
+   margin: auto;
+}
+
+.home-salesman{
+    padding: 10px;
+    flex: 0.25;
+    border-radius: 5px;
+    background-color: rgb(236, 236, 236);
+    height: fit-content;
+    position: sticky;
+    top: 70px;
+    right:0;
+}
+
+@media(max-width:1000px){
+    .home-salesman{
+       display: none;
+    }
+    .home-Wrap{
+        margin: 0;
+        flex: 1;
+    }
+}
+
+@media(max-width:400px){
+    .home{
+        padding: 0;
+    }
+}

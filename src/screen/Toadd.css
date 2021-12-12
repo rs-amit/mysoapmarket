@@ -1,0 +1,96 @@
+.toadd{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.toadd-wrap{
+    /* border: 1px solid black; */
+    display: flex;
+    /* max-width: 1000px; */
+    /* padding: 10px; */
+
+}
+
+.toadd-salesman{
+   border: 1px solid rgb(211, 211, 211);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+   background-color: rgb(230, 230, 230);
+   border-radius: 10px;
+}
+
+.Register-input{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.toadd-input{
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border: 2px solid rgb(212, 212, 212);
+    /* font-family: sans-serif; */
+
+}
+
+.adminlebal{
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.checkAdmin{
+    margin: 10px 5px;
+}
+
+.toadd-input:focus{
+    outline:none;
+}
+
+.banner-image{
+    max-width: 700px;
+    margin: 10px 30px;
+    /* background-color: rgb(226, 226, 226); */
+}
+
+.submit{
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    background-color: rgb(84, 84, 238);
+    border: none;
+    border:1px solid blue;
+    color: white;
+
+}
+
+.alertmessage{
+    /* border: 1px solid black; */
+    width: fit-content;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: crimson;
+}
+
+@media(max-width:1050px){
+    .banner{
+         display: none;
+    }
+    /* .checkAdmin{
+        margin:20px 0;
+    } */
+}
